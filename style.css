@@ -1,47 +1,47 @@
-html { 
-    background: url(./image/1.jpg) no-repeat center center fixed; 
+html {
+    background: url(./image/1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Prosto One', cursive;
     color: white;
     margin: 0 auto;
 }
 
-img{
+img {
     width: 100%;
 }
 
-.chamada{
+.chamada {
     display: flex;
     text-align: right;
     margin-bottom: 100px;
 }
 
-.chamada h1{
+.chamada h1 {
     width: 40%;
     padding: 20px;
     text-align: left;
 }
 
-.chamada h2{
+.chamada h2 {
     color: black;
     padding: 20px;
     margin-left: 30px;
     width: 60%;
 }
 
-.prato{
+.prato {
     text-align: center;
     background-color: rgba(1, 1, 1, 0.6);
     padding: 10px;
@@ -55,16 +55,62 @@ img{
     align-items: center;
 }
 
-.redes-sociais img{
-        width: 30px;
-        margin:10px;
+.redes-sociais img {
+    width: 30px;
+    margin: 10px;
 }
 
-.redes-sociais span{
-    background-color: rgba(22, 21, 21, 0.6);;
+.redes-sociais span {
+    background-color: rgba(22, 21, 21, 0.6);
+    ;
     color: red;
     font-size: 20px;
     font-weight: bold;
     border: 1px solid white;
     padding: 5px;
+}
+
+@media(max-width: 430px) {
+
+    .chamada {
+        margin-bottom: 0px;
+    }
+
+    .chamada h1 {
+        font-size: 1.5em;
+        padding: 10px;
+    }
+
+    .chamada h2 {
+        padding: 10px;
+        font-size: 1.2em;
+    }
+
+    .prato {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    .redes-sociais {
+        margin: 20px;
+        display: block;
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    .redes-sociais img {
+        width: 30px;
+        margin: 10px;
+    }
+
+    .redes-sociais span {
+        display: block;
+        /* background-color: rgba(22, 21, 21, 0.6);
+        ;
+        color: red;
+        font-size: 20px;
+        font-weight: bold;
+        border: 1px solid white;
+        padding: 5px; */
+    }
 }
