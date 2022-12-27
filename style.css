@@ -70,7 +70,7 @@ img {
     padding: 5px;
 }
 
-@media(max-width: 430px) {
+@media(max-width: 600px) {
 
     .chamada {
         margin-bottom: 0px;
@@ -103,14 +103,8 @@ img {
         margin: 10px;
     }
 
-    .redes-sociais span {
+    .redes-sociais span{
         display: block;
-        /* background-color: rgba(22, 21, 21, 0.6);
-        ;
-        color: red;
-        font-size: 20px;
-        font-weight: bold;
-        border: 1px solid white;
-        padding: 5px; */
     }
+
 }
